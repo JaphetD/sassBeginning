@@ -1,0 +1,32 @@
+.callout {
+  background-image:url("../image/img1.jpg");
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
+.callText {
+  height: 350px;
+  width:600px;
+  /*background-color: pink;*/
+  margin:auto;
+  flex-direction:column;
+  align-items: center;
+}
+
+.callText span {
+  font-size: 4em;
+  /*font-variant-caps: all-petite-caps;*/
+  text-transform: uppercase;
+  text-align: center;
+  background-color:rgba(0,0,0,.5);
+  margin-bottom:10px;
+  color:white;
+}
+
+.callText h5 {
+  font-size: 1em;
+  color:white;
+  background-color:rgba(0,0,0,.8);
+  padding: 5px 10px;
+}
